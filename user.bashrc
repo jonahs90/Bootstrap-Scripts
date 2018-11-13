@@ -113,26 +113,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PYTHONPATH=$PYTHONPATH:.
-
-# virtualenv and virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-
-#export para Android SDK
-export PATH="$HOME/Android/tools:$PATH"
-export PATH="$HOME/Android/platform-tools:$PATH"
-
-#export para ANDROID NDK
-export ANDROID_NDK=/opt/android-ndk*
-export PATH=$PATH:$ANDROID_NDK
-
-#para debug en raspberry pi PPS
-export QT_QPA_EGLFS_PHYSICAL_WIDTH=1024
-export QT_QPA_EGLFS_PHYSICAL_HEIGHT=600
 
 LS_COLORS=$LS_COLORS:'di=1;36:' ; export LS_COLORS
-
-
-
