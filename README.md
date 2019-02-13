@@ -1,4 +1,4 @@
-#README
+# README
 
 Recopilación de archivos de configuración de linux, utilidades y scripts. Utilizados en cada instalación personal en entornos Linux (mayormente Debian).
 
